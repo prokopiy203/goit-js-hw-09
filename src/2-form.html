@@ -11,20 +11,30 @@
 
 <body>
 
-  />
 
   <main>
     <div class="container">
-      <form class="feedback-form" autocomplete="off">
-        <label>
+      <form class="feedback-form js-form" autocomplete="off">
+        <label class="label-input">
           Email
-          <input type="email" name="email" autofocus />
+          <div class="input-container">
+            <div class="border-effect"></div>
+            <input class="email-input" type="email" name="email" autofocus />
+          </div>
         </label>
-        <label>
+        <label class="label-input">
           Message
-          <textarea name="message" rows="8"></textarea>
+          <div class="input-container">
+            <div class="border-effect"></div>
+            <textarea name="message" rows="8"></textarea>
+          </div>
         </label>
-        <button type="submit">Submit</button>
+
+        <button type="submit">
+          <span class="shadow"></span>
+          <span class="edge"></span>
+          <span class="front">Submit</span></button>
+
       </form>
 
     </div>
