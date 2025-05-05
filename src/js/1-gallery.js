@@ -87,7 +87,7 @@ const galleryMarkup = images
 gallery.insertAdjacentHTML('beforeend', galleryMarkup);
 
 new SimpleLightbox('.gallery-item a', {
-  animationSpeed: 250,
+  captionDelay: 250,
   captionsData: 'alt',
   overlay: true,
   overlayOpacity: 0.8,
